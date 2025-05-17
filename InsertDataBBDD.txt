@@ -1,0 +1,58 @@
+
+
+INSERT INTO `bicicletas`( `nombre`, `tipo`, `medidas`, `color`, `peso`, `precio` , `imagen`) VALUES ('BTR','Montaña','150cmx45cm','Amarillo',50.1,140.5, 'https://media.istockphoto.com/id/1070233662/es/foto/amarillo-negro-racing-sport-bike-bicicleta-corredor-de-la-carretera-aislado.jpg?s=612x612&w=0&k=20&c=h3Y9YQSXu5yCfCcmn5Vui5BojMvpGROpcHmvpRHWJ0w=');
+INSERT INTO `bicicletas`( `nombre`, `tipo`, `medidas`, `color`, `peso`, `precio`, `imagen`) VALUES ('CitySide','Ciudad','145cmx50cm','Rojo',47.1,95.7, 'https://media.istockphoto.com/id/505687054/es/foto/nueva-red-bicicleta-aislado-en-blanco.jpg?s=612x612&w=0&k=20&c=6qMq9-R2aQMlGaPBC_eIIZDDLPWHFe_8NMp7X2o04Fg=');
+INSERT INTO `bicicletas`( `nombre`, `tipo`, `medidas`, `color`, `peso`, `precio`, `imagen`) VALUES ('BMX','Ciudad','145cmx50cm','Negra',47.1,95.7, 'https://media.istockphoto.com/id/523999849/es/foto/elegante-de-la-mujer-azul-bicicleta-aislado-en-blanco.jpg?s=612x612&w=0&k=20&c=A1dVpl743xms4hcHyS7XoR_izUp2RR1Yo-IT1BEBCj8=');
+INSERT INTO `bicicletas`( `nombre`, `tipo`, `medidas`, `color`, `peso`, `precio`, `imagen`) VALUES ('TranxMax','Montaña','150cmx45cm','Azul',50.1,140.5, 'https://media.istockphoto.com/id/1344641306/es/foto/bicicleta-de-grava-profesional-o-bicicleta-de-carretera-aislada-sobre-fondo-blanco.jpg?s=612x612&w=0&k=20&c=ccRBPUj21ty7Bq0Hl2TDZBKBI0JL6mfc1I6E4w4Te78=');
+INSERT INTO `bicicletas`( `nombre`, `tipo`, `medidas`, `color`, `peso`, `precio`, `imagen`) VALUES ('Inceptor','Montaña','150cmx45cm','Morado',50.1,140.5, 'https://media.istockphoto.com/id/1070233662/es/foto/amarillo-negro-racing-sport-bike-bicicleta-corredor-de-la-carretera-aislado.jpg?s=612x612&w=0&k=20&c=h3Y9YQSXu5yCfCcmn5Vui5BojMvpGROpcHmvpRHWJ0w=');
+INSERT INTO `bicicletas`( `nombre`, `tipo`, `medidas`, `color`, `peso`, `precio`, `imagen`) VALUES ('KillerBee','Montaña','150cmx45cm','Cian',50.1,140.5, 'https://media.istockphoto.com/id/505687054/es/foto/nueva-red-bicicleta-aislado-en-blanco.jpg?s=612x612&w=0&k=20&c=6qMq9-R2aQMlGaPBC_eIIZDDLPWHFe_8NMp7X2o04Fg=');
+INSERT INTO `bicicletas`( `nombre`, `tipo`, `medidas`, `color`, `peso`, `precio`, `imagen`) VALUES ('Boston','Ciudad','145cmx50cm','Amarillo',47.1,95.7, 'https://media.istockphoto.com/id/523999849/es/foto/elegante-de-la-mujer-azul-bicicleta-aislado-en-blanco.jpg?s=612x612&w=0&k=20&c=A1dVpl743xms4hcHyS7XoR_izUp2RR1Yo-IT1BEBCj8=');
+INSERT INTO `bicicletas`( `nombre`, `tipo`, `medidas`, `color`, `peso`, `precio`, `imagen`) VALUES ('NYC','Ciudad','145cmx50cm','Amarillo',47.1,95.7, 'https://media.istockphoto.com/id/1344641306/es/foto/bicicleta-de-grava-profesional-o-bicicleta-de-carretera-aislada-sobre-fondo-blanco.jpg?s=612x612&w=0&k=20&c=ccRBPUj21ty7Bq0Hl2TDZBKBI0JL6mfc1I6E4w4Te78=');
+INSERT INTO `bicicletas`( `nombre`, `tipo`, `medidas`, `color`, `peso`, `precio`, `imagen`) VALUES ('France','Ciudad','145cmx50cm','Rojo',47.1,95.7, 'https://media.istockphoto.com/id/1070233662/es/foto/amarillo-negro-racing-sport-bike-bicicleta-corredor-de-la-carretera-aislado.jpg?s=612x612&w=0&k=20&c=h3Y9YQSXu5yCfCcmn5Vui5BojMvpGROpcHmvpRHWJ0w=');
+INSERT INTO `bicicletas`( `nombre`, `tipo`, `medidas`, `color`, `peso`, `precio`, `imagen`) VALUES ('BTR2','Montaña','150cmx45cm','Verde',50.1,140.5, 'https://media.istockphoto.com/id/505687054/es/foto/nueva-red-bicicleta-aislado-en-blanco.jpg?s=612x612&w=0&k=20&c=6qMq9-R2aQMlGaPBC_eIIZDDLPWHFe_8NMp7X2o04Fg=');
+INSERT INTO `bicicletas`( `nombre`, `tipo`, `medidas`, `color`, `peso`, `precio`, `imagen`) VALUES ('M10','Montaña','150cmx45cm','Magenta',50.1,140.5, 'https://media.istockphoto.com/id/523999849/es/foto/elegante-de-la-mujer-azul-bicicleta-aislado-en-blanco.jpg?s=612x612&w=0&k=20&c=A1dVpl743xms4hcHyS7XoR_izUp2RR1Yo-IT1BEBCj8=');
+INSERT INTO `bicicletas`( `nombre`, `tipo`, `medidas`, `color`, `peso`, `precio`, `imagen`) VALUES ('CrossCountry','Ciudad','145cmx50cm','Azul Oscuro',47.1,95.7, 'https://media.istockphoto.com/id/1344641306/es/foto/bicicleta-de-grava-profesional-o-bicicleta-de-carretera-aislada-sobre-fondo-blanco.jpg?s=612x612&w=0&k=20&c=ccRBPUj21ty7Bq0Hl2TDZBKBI0JL6mfc1I6E4w4Te78=');
+INSERT INTO `bicicletas`( `nombre`, `tipo`, `medidas`, `color`, `peso`, `precio`, `imagen`) VALUES ('Twenty','Montaña','150cmx45cm','Rojo Claro',50.1,140.5, 'https://media.istockphoto.com/id/1070233662/es/foto/amarillo-negro-racing-sport-bike-bicicleta-corredor-de-la-carretera-aislado.jpg?s=612x612&w=0&k=20&c=h3Y9YQSXu5yCfCcmn5Vui5BojMvpGROpcHmvpRHWJ0w=');
+INSERT INTO `bicicletas`( `nombre`, `tipo`, `medidas`, `color`, `peso`, `precio`, `imagen`) VALUES ('GTA','Ciudad','145cmx50cm','Rosa',47.1,95.7, 'https://media.istockphoto.com/id/505687054/es/foto/nueva-red-bicicleta-aislado-en-blanco.jpg?s=612x612&w=0&k=20&c=6qMq9-R2aQMlGaPBC_eIIZDDLPWHFe_8NMp7X2o04Fg=');
+INSERT INTO `bicicletas`( `nombre`, `tipo`, `medidas`, `color`, `peso`, `precio`, `imagen`) VALUES ('Mountainman','Montaña','150cmx45cm','Negro',50.1,140.5, 'https://media.istockphoto.com/id/523999849/es/foto/elegante-de-la-mujer-azul-bicicleta-aislado-en-blanco.jpg?s=612x612&w=0&k=20&c=A1dVpl743xms4hcHyS7XoR_izUp2RR1Yo-IT1BEBCj8=');
+INSERT INTO `bicicletas`( `nombre`, `tipo`, `medidas`, `color`, `peso`, `precio`, `imagen`) VALUES ('Springdle','Ciudad','145cmx50cm','Blanco',47.1,95.7, 'https://media.istockphoto.com/id/1344641306/es/foto/bicicleta-de-grava-profesional-o-bicicleta-de-carretera-aislada-sobre-fondo-blanco.jpg?s=612x612&w=0&k=20&c=ccRBPUj21ty7Bq0Hl2TDZBKBI0JL6mfc1I6E4w4Te78=');
+INSERT INTO `bicicletas`( `nombre`, `tipo`, `medidas`, `color`, `peso`, `precio`, `imagen`) VALUES ('San Andreas','Montaña','150cmx45cm','Naranja',50.1,140.5, 'https://media.istockphoto.com/id/1070233662/es/foto/amarillo-negro-racing-sport-bike-bicicleta-corredor-de-la-carretera-aislado.jpg?s=612x612&w=0&k=20&c=h3Y9YQSXu5yCfCcmn5Vui5BojMvpGROpcHmvpRHWJ0w=');
+INSERT INTO `bicicletas`( `nombre`, `tipo`, `medidas`, `color`, `peso`, `precio`, `imagen`) VALUES ('McBronx','Montaña','150cmx45cm','Naranja',50.1,140.5, 'https://media.istockphoto.com/id/505687054/es/foto/nueva-red-bicicleta-aislado-en-blanco.jpg?s=612x612&w=0&k=20&c=6qMq9-R2aQMlGaPBC_eIIZDDLPWHFe_8NMp7X2o04Fg=');
+INSERT INTO `bicicletas`( `nombre`, `tipo`, `medidas`, `color`, `peso`, `precio`, `imagen`) VALUES ('FMX','Montaña','150cmx45cm','Rosa',50.1,140.5, 'https://media.istockphoto.com/id/523999849/es/foto/elegante-de-la-mujer-azul-bicicleta-aislado-en-blanco.jpg?s=612x612&w=0&k=20&c=A1dVpl743xms4hcHyS7XoR_izUp2RR1Yo-IT1BEBCj8=');
+INSERT INTO `bicicletas`( `nombre`, `tipo`, `medidas`, `color`, `peso`, `precio`, `imagen`) VALUES ('Paradise','Ciudad','145cmx50cm','Blanco',47.1,95.7, 'https://media.istockphoto.com/id/1344641306/es/foto/bicicleta-de-grava-profesional-o-bicicleta-de-carretera-aislada-sobre-fondo-blanco.jpg?s=612x612&w=0&k=20&c=ccRBPUj21ty7Bq0Hl2TDZBKBI0JL6mfc1I6E4w4Te78=');
+
+
+
+
+INSERT INTO `cascos`( `tamanyo`, `color`, `precio`, `imagen`) VALUES ('30cm','Rojo',25.7,'https://media.istockphoto.com/id/122758552/es/foto/casco-de-bicicletas.jpg?s=612x612&w=0&k=20&c=gvXfF1vKT_LuG8So-Hrt8RI3O9w2STJosEPFU83Qdv0=');
+INSERT INTO `cascos`( `tamanyo`, `color`, `precio`, `imagen`) VALUES ('30cm','Gris',30.2,'https://media.istockphoto.com/id/498048937/es/foto/bicicleta-de-monta%C3%B1a-de-casco-de-seguridad-aislado-en-blanco.jpg?s=612x612&w=0&k=20&c=ploYpbESbBEk4DXVbXlES3Q64EI7GKFfm-g4E-nMsdg=');
+
+INSERT INTO `cascos`( `tamanyo`, `color`, `precio`, `imagen`) VALUES ('30cm','Rosa',40.9,'https://media.istockphoto.com/id/122758552/es/foto/casco-de-bicicletas.jpg?s=612x612&w=0&k=20&c=gvXfF1vKT_LuG8So-Hrt8RI3O9w2STJosEPFU83Qdv0=');
+INSERT INTO `cascos`( `tamanyo`, `color`, `precio`, `imagen`) VALUES ('30cm','Azul',12.2,'https://media.istockphoto.com/id/498048937/es/foto/bicicleta-de-monta%C3%B1a-de-casco-de-seguridad-aislado-en-blanco.jpg?s=612x612&w=0&k=20&c=ploYpbESbBEk4DXVbXlES3Q64EI7GKFfm-g4E-nMsdg=');
+
+INSERT INTO `cascos`( `tamanyo`, `color`, `precio`, `imagen`) VALUES ('30cm','Amarillo',14.9,'https://media.istockphoto.com/id/122758552/es/foto/casco-de-bicicletas.jpg?s=612x612&w=0&k=20&c=gvXfF1vKT_LuG8So-Hrt8RI3O9w2STJosEPFU83Qdv0=');
+INSERT INTO `cascos`( `tamanyo`, `color`, `precio`, `imagen`) VALUES ('30cm','Verde',30.2,'https://media.istockphoto.com/id/498048937/es/foto/bicicleta-de-monta%C3%B1a-de-casco-de-seguridad-aislado-en-blanco.jpg?s=612x612&w=0&k=20&c=ploYpbESbBEk4DXVbXlES3Q64EI7GKFfm-g4E-nMsdg=');
+
+INSERT INTO `cascos`( `tamanyo`, `color`, `precio`, `imagen`) VALUES ('30cm','Morado',22.4,'https://media.istockphoto.com/id/122758552/es/foto/casco-de-bicicletas.jpg?s=612x612&w=0&k=20&c=gvXfF1vKT_LuG8So-Hrt8RI3O9w2STJosEPFU83Qdv0=');
+INSERT INTO `cascos`( `tamanyo`, `color`, `precio`, `imagen`) VALUES ('30cm','Marron',35.5,'https://media.istockphoto.com/id/498048937/es/foto/bicicleta-de-monta%C3%B1a-de-casco-de-seguridad-aislado-en-blanco.jpg?s=612x612&w=0&k=20&c=ploYpbESbBEk4DXVbXlES3Q64EI7GKFfm-g4E-nMsdg=');
+
+INSERT INTO `cascos`( `tamanyo`, `color`, `precio`, `imagen`) VALUES ('30cm','Naranja',25.5,'https://media.istockphoto.com/id/122758552/es/foto/casco-de-bicicletas.jpg?s=612x612&w=0&k=20&c=gvXfF1vKT_LuG8So-Hrt8RI3O9w2STJosEPFU83Qdv0=');
+INSERT INTO `cascos`( `tamanyo`, `color`, `precio`, `imagen`) VALUES ('30cm','Negro',31.2,'https://media.istockphoto.com/id/498048937/es/foto/bicicleta-de-monta%C3%B1a-de-casco-de-seguridad-aislado-en-blanco.jpg?s=612x612&w=0&k=20&c=ploYpbESbBEk4DXVbXlES3Q64EI7GKFfm-g4E-nMsdg=');
+
+
+
+INSERT INTO `productos`( `nombre`, `color`, `precio`) VALUES ('Dinamo','Rojo',15.5);
+
+INSERT INTO `productos`( `nombre`, `color`, `precio`) VALUES ('Bomba de Aire','Negro',45.5);
+
+INSERT INTO `productos`( `nombre`, `color`, `precio`) VALUES ('Frenos','Negro',25.5);
+
+INSERT INTO `productos`( `nombre`, `color`, `precio`) VALUES ('Grasa para cadena','Negro',30.0);
+
+INSERT INTO `productos`( `nombre`, `color`, `precio`) VALUES ('Luces traseras','Blanco',55.5);
+
+
+
+
+
+
