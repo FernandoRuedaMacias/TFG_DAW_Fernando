@@ -42,9 +42,9 @@ class ProfileController extends Controller
      */
     public function destroy(Request $request): RedirectResponse
     {
-        $request->validateWithBag('userDeletion', [
-            'password' => ['required', 'current_password'],
-        ]);
+       //primero borrar los pedidos del usuario
+       //despues salir de la sesion
+       //borrar usuario
 
         $user = $request->user();
 
