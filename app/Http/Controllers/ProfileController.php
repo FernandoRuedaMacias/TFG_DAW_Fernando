@@ -8,6 +8,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Redirect;
 use Illuminate\View\View;
+use App\Models\User;
 
 class ProfileController extends Controller
 {
@@ -42,11 +43,15 @@ class ProfileController extends Controller
      */
     public function destroy(Request $request): RedirectResponse
     {
-       //primero borrar los pedidos del usuario
-       //despues salir de la sesion
-       //borrar usuario
+        /*
+        $request->validateWithBag('userDeletion', [
+            'password' => ['required', 'current_password'],
+        ]);
+        */
 
-        $user = $request->user();
+        $id = Auth::id();
+
+        $user =  User::find($id);
 
         Auth::logout();
 
@@ -55,6 +60,6 @@ class ProfileController extends Controller
         $request->session()->invalidate();
         $request->session()->regenerateToken();
 
-        return Redirect::to('/');
+        return redirect()->route('Inicio');
     }
 }

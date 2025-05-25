@@ -44,9 +44,9 @@ INNER JOIN productos ON Pedidos.id_producto = productos.id INNER JOIN users ON P
 
 
     public function destroy ($id){
-        $post =  Pedidos::find($id);
+        $pedido =  Pedidos::find($id);
 
-        $post->delete();
+        $pedido->delete();
         
         return redirect()->route('dashboard');
     } 
