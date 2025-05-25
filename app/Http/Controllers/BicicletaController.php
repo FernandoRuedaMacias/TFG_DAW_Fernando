@@ -56,10 +56,13 @@ class BicicletaController extends Controller
             $pedido->id_usuario = $idusuario;
     
             if (str_contains($item, "bici_")) {
+                $pedido->precio= $detalles['precio'];
                 $pedido->id_bici = str_replace("bici_", "", $item);
             } elseif (str_contains($item, "casco_")) {
+                $pedido->precio= $detalles['precio'];
                 $pedido->id_casco = str_replace("casco_", "", $item);
             } elseif (str_contains($item, "producto_")) {
+                $pedido->precio= $detalles['precio'];
                 $pedido->id_producto = str_replace("producto_", "", $item);
             }
     

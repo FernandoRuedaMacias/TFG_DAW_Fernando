@@ -73,6 +73,7 @@
             <th scope="col">Id Producto</th>
             <th scope="col">Nombre Producto</th>
             <th scope="col">Nombre Usuario</th>
+            <th scope="col">Precio</th>
             <th scope="col">Borrar Pedido</th>
             
         </tr>
@@ -84,6 +85,7 @@
         <td>{{ $pedido->id_producto }}</td>
         <td>{{ $pedido->nombre_producto }}</td>
         <td>{{ $pedido->nombre_usuario }}</td>
+        <td>{{ $pedido->precio }} €</td>
         <td><a href=" {{ route('borrarpedido',$pedido->id)}}"><button id="button" class="btn  btn-dark">Eliminar</button></a></td>
     </tr>
     @endforeach

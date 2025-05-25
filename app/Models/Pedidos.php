@@ -12,5 +12,6 @@ class Pedidos extends Model
     private $id_bici;
     private $id_casco;
     private $id_producto;
+    private $precio;
     use HasFactory;
 }

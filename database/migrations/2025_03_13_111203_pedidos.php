@@ -18,6 +18,7 @@ return new class extends Migration
             $table->unsignedBigInteger('id_casco')->nullable(true);
             $table->unsignedBigInteger('id_producto')->nullable(true);
             $table->unsignedBigInteger('id_usuario')->nullable(false);
+            $table->decimal('precio',5,2);
             $table->timestamps();
             //Creación de claves foráneas que unen todas las tablas
             $table->foreign('id_bici')->references('id')->on('bicicletas');
