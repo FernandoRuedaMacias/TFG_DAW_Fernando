@@ -16,6 +16,7 @@ class ResenyaController extends Controller
     {
 
           $nuevaResenya = new Resenya;
+          $nuevaResenya->id_usuario = Auth::id();
         if ($tipo == "bici") {
             $nuevaResenya->id_bici = $id;
             $nuevaResenya->id_casco = null;

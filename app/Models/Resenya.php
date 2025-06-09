@@ -9,6 +9,7 @@ class Resenya extends Model
 {
     public $timestamps = false;
     private $id;
+    private $id_usuario;
     private $id_bici;
     private $id_casco;
     private $nombreusuario;
