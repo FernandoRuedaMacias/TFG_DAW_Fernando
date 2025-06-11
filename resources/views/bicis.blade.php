@@ -104,14 +104,16 @@
     </nav>
 
     <div class="container my-4">
-      <h4 class="mb-3">Buscar bicicletas por tipo: <small class="text-muted">(Ciudad o Montaña)</small></h4>
+      <h4 class="mb-3">Filtrar bicicletas por tipo: <small class="text-muted">(Ciudad o Montaña)</small></h4>
       <form action="{{ route('Filtrar') }}" method="GET" class="row g-3 align-items-center">
-        @csrf
         <div class="col-md-6">
-          <input class="form-control" type="text" id="tipo" name="tipo" placeholder="Ej: Montaña, Ciudad">
-        </div>
+          <select class="form-select" aria-label="Default select example" name="tipo">
+            <option value="Montaña">Montaña</option>
+            <option value="Ciudad">Ciudad</option>
+          </select>
+      </div>
         <div class="col-auto">
-          <button type="submit" class="btn btn-success">Buscar</button>
+          <button type="submit" class="btn btn-success">Filtrar</button>
         </div>
         <div class="col-auto">
           <a href="{{ route('Inicio') }}" class="btn btn-danger">Reestablecer</a>
