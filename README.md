@@ -8,4 +8,5 @@
 </p>
 
 ## AVISO:ESTE REPOSITORIO ESTA CONGELADO
+## PARA GENERAR LOS DATOS PEGA EL CONTENID DE InsertDataBBDD.txt en mysql con la base de datos Hikerchamp previamente creada, (cambiar el env).
 
